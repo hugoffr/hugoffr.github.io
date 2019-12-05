@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title>...</title>
+	<link rel="stylesheet" type="text/css" href="CSS/styles.css">
+</head>
+<body>
+    <p>
+        <center><h1>...</h1></center>
+    </p>
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="ssp.html">Sum Set Sum</a></li>
+            <li style="float:right;"><a>Contact</a></li>
+            </ul>
+    </div>
+    <div>
+    <form>
+        Sum Set:<br>
+        <textarea id="sumset" style="width:250px;height:150px;" placeholder="1 2 3.4 5,6 ..."></textarea><br><br>
+        Expected Value:<br>
+        <input type="text" id="expectedvalue"><br><br>
+        Tolerance:<br>
+        <input type="text" id="tolerance" placeholder="0">
+    </form>
+    <button type="button" onclick="main()" type="text/javascript">button</button>
+    <p id = demo></p>
+    </div>
+</body>
+
+<script src="JS/sumset_sum_problem_bruteforce.js"></script>
+
+</html>

@@ -37,3 +37,7 @@ body{
 .navbar li a:hover {
     background-color: #111;
 }
+
+textarea {
+  resize: none;
+}
