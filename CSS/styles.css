@@ -6,9 +6,22 @@
 body{
     background-color: whitesmoke;
     font: normal 16px Arial, Helvetica, sans-serif;
-    margin: 5% 5%;
+    margin: 50pt 1pt;
 }
 
+.dropdown-item{
+    background-color: #303030;
+    color: white;
+}
+
+.dropdown-divider{
+    border-color: black;
+    color: black;
+}
+
+.dropdown-menu{
+    background-color: #303030;
+}
 
 textarea {
   resize: none;
