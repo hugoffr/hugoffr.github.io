@@ -7,35 +7,8 @@
 </head>
 <body>
     
-    <!-- Title -->
-<p>
-    <center><h1>Personal Website</h1></center>
-</p>
-    
     <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand">Under Construction</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Scripts
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="ssp.html">Sum Set Sums</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Place Holder</a>
-        </div>
-      </li>
-    </ul>
-  </div>
-</nav>
+<div id="nav-placeholder"></div>
     
     <!-- Body -->
     <div>
@@ -43,9 +16,16 @@
     </div>
 </body>
 
-    <!-- Scripts -->
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+     <!-- Scripts -->
+<script src="JS/sumset_sum_problem_bruteforce.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha384-xBuQ/xzmlsLoJpyjoggmTEz8OWUFM0/RC5BsqQBDX2v5cMvDHcMakNTNrHIW2I5f" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="JS/bootstrap.min.js"></script>
-
+    
+<!-- Load Navbar -->
+<script>
+$(function(){
+    $("#nav-placeholder").load("nav.html");
+});
+</script>
 </html>
