@@ -1,27 +1,31 @@
 * {
-    padding: 0;
     border: 0;
 }
 
 body{
     background-color: whitesmoke;
     font: normal 16px Arial, Helvetica, sans-serif;
-    margin: 50pt 1pt;
+    padding-top: 60px;
+}
+@media (max-width: 979px) {
+  body {
+    padding-top: 60px;
+  }
 }
 
 .dropdown-item{
-    background-color: #303030;
-    color: white;
-}
-
+	    background-color: #303030;
+	    color: white;
+	}
+	
 .dropdown-divider{
-    border-color: black;
-    color: black;
-}
-
+	    border-color: black;
+	    color: black;
+	}
+	
 .dropdown-menu{
-    background-color: #303030;
-}
+	    background-color: #303030;
+	}
 
 textarea {
   resize: none;
