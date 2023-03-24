@@ -22,8 +22,9 @@ body{
   }
 
   .indexbody {
-    margin-left: 10%;
-    margin-bottom: 10%;
+    margin: 0 auto;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 }
 
