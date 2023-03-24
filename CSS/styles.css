@@ -16,9 +16,14 @@ body{
   margin-right: 25%;
 }
 
-@media (max-width: 979px) {
+@media only screen and (max-width: 600px) {
   body {
     padding-top: 60px;
+  }
+
+  .indexbody {
+    margin-left: 10%;
+    margin-bottom: 10%;
   }
 }
 
@@ -33,8 +38,8 @@ body{
 }
 
 .dropdown-menu{
-	    background-color: #303030;
-	}
+  background-color: #303030;
+}
 
 textarea {
   resize: none;
