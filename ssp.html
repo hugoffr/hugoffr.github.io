@@ -1,8 +1,9 @@
-<html>
+<html lang="en">
     
     <!-- Head -->
 <head>
-	<title>...</title>
+    <meta charset="UTF-8">
+	<title>Subset Sum Problem</title>
     <link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="CSS/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,37 +12,59 @@
     <!-- Navbar -->
 <div id="nav-placeholder"></div>
     
-<body>    
     <!-- Body -->
-<div>
-    <br>
-    <div class="input-group">
-      <div class="input-group-prepend">
-        <span class="input-group-text">Sum Set</span>
-      </div>
-      <textarea class="form-control" aria-label="With textarea" placeholder="1 2 3.4 5,6 ..." id="sumset"></textarea>
-    </div>
-    <label></label><br><label></label>
-    <div class="input-group mb-3">
-        <div class="input-group-prepend">
-            <span class="input-group-text" id="basic-addon1" id="expectedvalue">Expected Value</span>
+<body>
+    <div class="script-body">
+        
+        <br>
+
+            <!-- Set of Values -->
+        <div class="input-group">
+
+            <div class="input-group-prepend">
+
+                <span class="input-group-text">Sum Set</span>
+            </div>
+
+            <textarea class="form-control" aria-label="With textarea" placeholder="1 2 3.4 5,6 ..." id="sumset"></textarea>
         </div>
-        <input type="text" class="form-control" id="expectedvalue">
-    </div>
-    
-    <div class="input-group mb-3">
-        <div class="input-group-prepend">
-            <span class="input-group-text" id="basic-addon1" id="tolerance">Tolerance</span>
+
+        <br>
+
+            <!-- Expected Value Input -->
+        <div class="input-group mb-3">
+
+            <div class="input-group-prepend">
+                
+                <span class="input-group-text">Expected Value</span>
+            </div>
+
+            <input type="text" class="form-control" aria-label="With textarea" id="expectedvalue">
         </div>
-        <input type="text" class="form-control" id="tolerance" aria-describedby="basic-addon1">
+        
+            <!-- Tolerance Input -->
+        <div class="input-group mb-3">
+
+            <div class="input-group-prepend">
+
+                <span class="input-group-text">Tolerance</span>
+            </div>
+
+            <input type="text" class="form-control" aria-label="With textarea" id="tolerance" aria-describedby="basic-addon1">
+        </div>
+
+            <!-- Run Button -->
+        <div class="center-text">
+
+            <button type="button"  class="btn btn-dark" onclick="main()" type="text/javascript">Run</button>
+        </div>
+
+        <br>
+        <br>
+
+        <label>Results:</label>
+        <div class="alert alert-dark" role="alert" id="demo"></div>
     </div>
-    <div style="text-align:center;">
-        <button type="button"  class="btn btn-dark" onclick="main()" type="text/javascript">Run</button>
-    </div>
-    <label></label><br><br>
-    <label>Results:</label>
-<div class="alert alert-dark" role="alert" id="demo"></div>
-</div>
 
 </body>
 
@@ -51,7 +74,7 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="JS/bootstrap.min.js"></script>
     
-<!-- Load Navbar -->
+    <!-- Load Navbar -->
 <script>
 $(function(){
     $("#nav-placeholder").load("nav.html");

@@ -1,12 +1,21 @@
 * {
-    border: 0;
+  border: 0;
 }
 
 body{
-    background-color: whitesmoke;
-    font: normal 16px Arial, Helvetica, sans-serif;
-    padding-top: 60px;
+  background-color: 193141;
+  font: normal 16px Arial, Helvetica, sans-serif;
+  padding-top: 60px;
+  color: whitesmoke;
+  margin-left: 10%;
+  margin-right: 10%;
 }
+
+.indexbody{
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
 @media (max-width: 979px) {
   body {
     padding-top: 60px;
@@ -14,19 +23,55 @@ body{
 }
 
 .dropdown-item{
-	    background-color: #303030;
-	    color: white;
-	}
+  background-color: #303030;
+  color: white;
+}
 	
 .dropdown-divider{
-	    border-color: black;
-	    color: black;
-	}
-	
+  border-color: black;
+  color: black;
+}
+
 .dropdown-menu{
 	    background-color: #303030;
 	}
 
 textarea {
   resize: none;
+}
+
+.script-body {
+  padding: 5%;
+}
+
+.pfp {
+  display: block;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 50%;
+  max-width: 300px;
+}
+
+.name {
+  margin-top: 1%;
+  font: normal, 20px, Lucida Console, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.title {
+  font: normal, 16px, Lucida Console, Helvetica, sans-serif;
+  color: 366a8d;
+}
+
+.flex-parent {
+  display: flex;
+}
+.flex-child {
+  flex: 1;
+}
+
+.center-text {
+  text-align:center;
 }
