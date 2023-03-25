@@ -81,3 +81,25 @@ textarea {
 .center-text {
   text-align:center;
 }
+
+.progress {
+  margin: 5%;
+  height: 25px;
+  font: normal 16px Arial, Helvetica, sans-serif;
+}
+
+.java-progress-bar {
+  background-color: orangered;
+}
+
+.c-progress-bar {
+  background-color: gray;
+}
+
+.python-progress-bar {
+  background-color: 34709f;
+}
+
+.matlab-progress-bar {
+  background-color: fbae0e;
+}
