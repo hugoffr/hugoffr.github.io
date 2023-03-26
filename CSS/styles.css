@@ -78,8 +78,8 @@ textarea {
   flex: 1;
 }
 
-.center-text {
-  text-align:center;
+.intro {
+  text-align: justify;
 }
 
 .progress {
@@ -90,16 +90,20 @@ textarea {
 
 .java-progress-bar {
   background-color: orangered;
+  width: 80%
 }
 
 .c-progress-bar {
   background-color: gray;
+  width:65%
 }
 
 .python-progress-bar {
   background-color: 34709f;
+  width:80%
 }
 
 .matlab-progress-bar {
   background-color: fbae0e;
+  width:70%
 }
